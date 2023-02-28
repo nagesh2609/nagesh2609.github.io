@@ -1,61 +1,78 @@
 const Projects = [
 
- 
+
     {
-        name : "Blue-Fly",
+        name: "Blue-Fly",
         about: "This project is a clone of an e-commerce website in the US. Bluefly strives to be the store of first resort for fashion by offering the most compelling combination of selection, value, service, and convenience. Tech Stack - Java Script, Html, CSS, Bootstrap.",
-        img : "images/BlueFly.png",
-        gitrepo : "https://github.com/nagesh2609/Bluefly-Clone",
-        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
-        tech_stackicons : [
+        img: "images/BlueFly.png",
+        gitrepo: "https://github.com/nagesh2609/Bluefly-Clone",
+        tech_stack: "HTML | CSS | JAVASCRIPT | API's",
+        tech_stackicons: [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
             `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
             `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
-            
+
         ],
-        project_link : "https://bright-crostata-57a15c.netlify.app/#",
-        project_type : "Group Project",
-        category : ["all", "html"],
+        project_link: "https://bright-crostata-57a15c.netlify.app/#",
+        project_type: "Group Project",
+        category: ["all", "html"],
 
     },
-    
+
     {
-        name : "YOOX",
-        about : "New Arrivals Every Week to Reinvigorate your Wardrobe, Make the Most of it Now. Shop the Latest Designer Savings Now! Secure Payment. A Wide Array of Brands. Expert Customer Care. Categories: Men's Collection, Women's Collection, Kids' Collection.",
-        img : "images/YOOX.png",
-        gitrepo : "https://github.com/pravin0428/YOOX.com-Clone",
-        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
-        tech_stackicons : [
+        name: "YOOX",
+        about: "New Arrivals Every Week to Reinvigorate your Wardrobe, Make the Most of it Now. Shop the Latest Designer Savings Now! Secure Payment. A Wide Array of Brands. Expert Customer Care. Categories: Men's Collection, Women's Collection, Kids' Collection.",
+        img: "images/YOOX.png",
+        gitrepo: "https://github.com/pravin0428/YOOX.com-Clone",
+        tech_stack: "HTML | CSS | JAVASCRIPT | API's",
+        tech_stackicons: [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
             `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
             `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
-            
+
         ],
-        project_link : "https://admirable-halva-9f908e.netlify.app/",
-        project_type : "Group Project",
-        category : ["all", "html"],
+        project_link: "https://admirable-halva-9f908e.netlify.app/",
+        project_type: "Group Project",
+        category: ["all", "html"],
 
     },
     {
-        name : "India-Today",
-        about : "This project is a clone of the India Today news channel. it is a 24-hour English-language television network based in Noida, Uttar Pradesh that carries news, and current affairs in India.",
-        img : "images/IndiaToday.png",
-        gitrepo : "https://github.com/nagesh2609/India-Today-Clone",
-        tech_stack : "HTML | CSS | JAVASCRIPT",
-        tech_stackicons : [
+        name: "India-Today",
+        about: "This project is a clone of the India Today news channel. it is a 24-hour English-language television network based in Noida, Uttar Pradesh that carries news, and current affairs in India.",
+        img: "images/IndiaToday.png",
+        gitrepo: "https://github.com/nagesh2609/India-Today-Clone",
+        tech_stack: "HTML | CSS | JAVASCRIPT",
+        tech_stackicons: [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
             `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-            
+
         ],
-        project_link : "https://bright-crostata-57a15c.netlify.app/#",
-        project_type : "Team Project",
-        category : ["all", "html"],
+        project_link: "https://bright-crostata-57a15c.netlify.app/#",
+        project_type: "Team Project",
+        category: ["all", "html"],
 
     },
-   
+    {
+        name: "India-Today",
+        about: "This project is a clone of the India Today news channel. it is a 24-hour English-language television network based in Noida, Uttar Pradesh that carries news, and current affairs in India.",
+        img: "images/IndiaToday.png",
+        gitrepo: "https://github.com/nagesh2609/India-Today-Clone",
+        tech_stack: "HTML | CSS | JAVASCRIPT",
+        tech_stackicons: [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+
+        ],
+        project_link: "https://bright-crostata-57a15c.netlify.app/#",
+        project_type: "Team Project",
+        category: ["all", "html"],
+
+    }
+
 ]
 
 
@@ -105,10 +122,10 @@ function filterProjects(basis) {
 
 function displayProjectData(Projects) {
     projects__container.innerHTML = null;
-Projects.reverse().forEach(pro => {
-    let main = document.createElement("div")
-    main.setAttribute("class", "portfolio-item padd-15")
-    main.innerHTML = `
+    Projects.reverse().forEach(pro => {
+        let main = document.createElement("div")
+        main.setAttribute("class", "portfolio-item padd-15")
+        main.innerHTML = `
     <div class="portfolio-item-inner shadow-dark">
     <div class="portfolio-img">
       <img src=${pro.img} alt="">
@@ -125,9 +142,9 @@ Projects.reverse().forEach(pro => {
     </div>
   </div>
     `
-    projects__container.append(main)
+        projects__container.append(main)
 
-})
+    })
 
 }
 

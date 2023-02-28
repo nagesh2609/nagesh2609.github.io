@@ -14,7 +14,7 @@ let temp = {
   message : body
 }
 
-emailjs.send('service_f3etz3t', 'template_v4x8ndu', temp)
+emailjs.send('service_4jg2iet', 'uClKwHrnDLpwKHcZo', temp)
 .then((res) => {
   if(res.status == 200) {
     success()
