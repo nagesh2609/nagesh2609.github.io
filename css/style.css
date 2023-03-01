@@ -341,7 +341,12 @@
 
  }
 
+ #send_msg{
+    margin-left: 20px;
+ }
+
  #send_msg::after {
+    /* margin:auto; */
      content: "Send Message";
  }
 
@@ -843,13 +848,14 @@
  }
 
  .edu_cont {
-     width: calc(50% - 2rem);
+     width: calc(55% - 2rem);
      padding: 15px;
      border-radius: 10px;
      border: 1px solid var(--bg-black-50);
  }
 
  .edu_cont:hover {
+    
      box-shadow: 0 0 12px var(--text-black-700);
  }
 
@@ -1042,7 +1048,7 @@
  }
 
  .contact .contact-form .form-item .form-control {
-     width: 100%;
+     width: 90%;
      height: 50px;
      border-radius: 25px;
      background: var(--bg-black-100);
@@ -1051,6 +1057,7 @@
      font-size: 16px;
      color: var(--text-black-700);
      transition: all 0.3s ease;
+     /* border: 2px solid yellow; */
  }
 
  .contact .contact-form .form-item .form-control:focus {

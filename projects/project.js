@@ -56,20 +56,20 @@ const Projects = [
 
     },
     {
-        name: "India-Today",
-        about: "This project is a clone of the India Today news channel. it is a 24-hour English-language television network based in Noida, Uttar Pradesh that carries news, and current affairs in India.",
-        img: "images/IndiaToday.png",
-        gitrepo: "https://github.com/nagesh2609/India-Today-Clone",
-        tech_stack: "HTML | CSS | JAVASCRIPT",
+        name: "RealEstateBrokerApplication",
+        about: "Real-Estate-Broker-Application this is Java Backend project in which We have Developed the REST API for Real Estate Broker Application, This Api performs All the basic CRUD operation of our Application with user validation at every step ",
+        img: "images/RealEstateBrokerApplication.png",
+        gitrepo: "https://github.com/Ashish33000/Real-Estate-Broker_Application",
+        tech_stack: "JAVA | MySQL | REST-API | Spring-Boot",
         tech_stackicons: [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
             `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
 
         ],
-        project_link: "https://bright-crostata-57a15c.netlify.app/#",
+        project_link: "https://drive.google.com/file/d/1qehbO6ytUFRVWXuCNUazeupLk18PVn62/view",
         project_type: "Team Project",
-        category: ["all", "html"],
+        category: ["all", "mern"],
 
     }
 
